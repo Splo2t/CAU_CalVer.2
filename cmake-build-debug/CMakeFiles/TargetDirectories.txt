@@ -1,0 +1,3 @@
+/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir
