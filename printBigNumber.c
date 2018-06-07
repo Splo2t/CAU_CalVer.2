@@ -1,3 +1,5 @@
+#include "bigNumber.h"
+
 void printBigNumber(struct number number)
 {
     int i, k=0;
