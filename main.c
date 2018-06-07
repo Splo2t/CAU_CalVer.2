@@ -1,12 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
-struct number{
-
-    int number[4];
-    int chiper;
-};
+#include "bigNumber.h"
 
 void calNumber(char *num1, char *num2, char op);
 
@@ -44,6 +37,8 @@ int main() {
 
     printf("연산자를 입력하세요.");
     scanf("%c", &op);
+
+    bigNumberSum(inputNumber1, inputNumber2);
 
     calNumber(inputNumber1, inputNumber2, op);
 

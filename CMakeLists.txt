@@ -3,4 +3,4 @@ project(CalVer2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CalVer2 main.c)
+add_executable(CalVer2 main.c bigNumberSum.c bigNumber.h)

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumber.h">
+			<Option target="CalVer2"/>
+		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c">
+			<Option target="CalVer2"/>
+		</Unit>
 		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/main.c">
 			<Option target="CalVer2"/>
 		</Unit>

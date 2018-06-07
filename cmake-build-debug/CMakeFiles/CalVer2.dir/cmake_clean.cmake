@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CalVer2.dir/main.c.o"
+  "CMakeFiles/CalVer2.dir/bigNumberSum.c.o"
   "CalVer2.pdb"
   "CalVer2"
 )

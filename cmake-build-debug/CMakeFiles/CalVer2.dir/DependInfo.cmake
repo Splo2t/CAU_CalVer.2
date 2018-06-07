@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberSum.c.o"
   "/Users/splo2t/CLionProjects/CalVer2/main.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

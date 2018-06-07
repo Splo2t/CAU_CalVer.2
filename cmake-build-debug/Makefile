@@ -123,6 +123,33 @@ CalVer2/fast:
 	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/build
 .PHONY : CalVer2/fast
 
+bigNumberSum.o: bigNumberSum.c.o
+
+.PHONY : bigNumberSum.o
+
+# target to build an object file
+bigNumberSum.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberSum.c.o
+.PHONY : bigNumberSum.c.o
+
+bigNumberSum.i: bigNumberSum.c.i
+
+.PHONY : bigNumberSum.i
+
+# target to preprocess a source file
+bigNumberSum.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberSum.c.i
+.PHONY : bigNumberSum.c.i
+
+bigNumberSum.s: bigNumberSum.c.s
+
+.PHONY : bigNumberSum.s
+
+# target to generate assembly for a file
+bigNumberSum.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberSum.c.s
+.PHONY : bigNumberSum.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CalVer2"
+	@echo "... bigNumberSum.o"
+	@echo "... bigNumberSum.i"
+	@echo "... bigNumberSum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

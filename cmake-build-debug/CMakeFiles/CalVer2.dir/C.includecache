@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/splo2t/CLionProjects/CalVer2/main.c
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
 stdio.h
 -
 string.h
 -
 stdlib.h
 -
+
+/Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/main.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
 
