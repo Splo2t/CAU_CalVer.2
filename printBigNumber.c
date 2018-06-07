@@ -19,4 +19,4 @@ void printBigNumber(struct number number)
         }
     }
 }
-}
+
