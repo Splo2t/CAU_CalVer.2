@@ -1,3 +1,4 @@
+#include "bigNumber.h"
 void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
 	unsigned char MUL[200];
 	int i, j, k;
