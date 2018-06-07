@@ -3,18 +3,6 @@
 
 void calNumber(char *num1, char *num2, char op);
 
-void bigNumbeMultiple(char *num1, char *num2);
-
-void bigNumberDivide(char *num1, char *num2);
-
-void bigNumberMinus(char *num1, char *num2);
-
-void bigNumberSum(char *num1, char *num2);
-
-void printBigNumber(struct number number);
-
-struct number makeBigNumber(char *originalNumber);
-
 int max(int a, int b){
     if (a > b) return a;
     else return b;
