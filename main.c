@@ -30,8 +30,6 @@ int main() {
 
     scanf("%s %c %s", inputNumber1, &op, inputNumber2);
 
-    bigNumberSum(inputNumber1, inputNumber2);
-
     calNumber(inputNumber1, inputNumber2, op);
 
     return 0;
