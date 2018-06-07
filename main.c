@@ -27,16 +27,8 @@ int main() {
 
     char op;
 
-    printf("첫번째 숫자를 입력하세요.");
-    fgets(inputNumber1, sizeof(inputNumber1), stdin);
 
-
-    printf("두번째 숫자를 입력하세요.");
-    fgets(inputNumber2, sizeof(inputNumber2), stdin);
-
-
-    printf("연산자를 입력하세요.");
-    scanf("%c", &op);
+    scanf("%s %c %s", inputNumber1, &op, inputNumber2);
 
     bigNumberSum(inputNumber1, inputNumber2);
 
