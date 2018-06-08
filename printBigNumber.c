@@ -5,6 +5,7 @@ void printBigNumber(struct number number)
 {
     int zeroCount = 0;
     printf("\n결과값: ");
+    printf("%c", number.op);
     for(int i=0;i<MAX_ARR_SIZE;i++)
     {
         for(int j = 0; j < 4; j++){

@@ -153,33 +153,9 @@ CMakeFiles/CalVer2.dir/calNumber.c.o.provides: CMakeFiles/CalVer2.dir/calNumber.
 CMakeFiles/CalVer2.dir/calNumber.c.o.provides.build: CMakeFiles/CalVer2.dir/calNumber.c.o
 
 
-CMakeFiles/CalVer2.dir/mul.c.o: CMakeFiles/CalVer2.dir/flags.make
-CMakeFiles/CalVer2.dir/mul.c.o: ../mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CalVer2.dir/mul.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalVer2.dir/mul.c.o   -c /Users/splo2t/CLionProjects/CalVer2/mul.c
-
-CMakeFiles/CalVer2.dir/mul.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CalVer2.dir/mul.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/splo2t/CLionProjects/CalVer2/mul.c > CMakeFiles/CalVer2.dir/mul.c.i
-
-CMakeFiles/CalVer2.dir/mul.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CalVer2.dir/mul.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/splo2t/CLionProjects/CalVer2/mul.c -o CMakeFiles/CalVer2.dir/mul.c.s
-
-CMakeFiles/CalVer2.dir/mul.c.o.requires:
-
-.PHONY : CMakeFiles/CalVer2.dir/mul.c.o.requires
-
-CMakeFiles/CalVer2.dir/mul.c.o.provides: CMakeFiles/CalVer2.dir/mul.c.o.requires
-	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/mul.c.o.provides.build
-.PHONY : CMakeFiles/CalVer2.dir/mul.c.o.provides
-
-CMakeFiles/CalVer2.dir/mul.c.o.provides.build: CMakeFiles/CalVer2.dir/mul.c.o
-
-
 CMakeFiles/CalVer2.dir/bigNumberDivide.c.o: CMakeFiles/CalVer2.dir/flags.make
 CMakeFiles/CalVer2.dir/bigNumberDivide.c.o: ../bigNumberDivide.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CalVer2.dir/bigNumberDivide.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CalVer2.dir/bigNumberDivide.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalVer2.dir/bigNumberDivide.c.o   -c /Users/splo2t/CLionProjects/CalVer2/bigNumberDivide.c
 
 CMakeFiles/CalVer2.dir/bigNumberDivide.c.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/CalVer2.dir/bigNumberDivide.c.o.provides.build: CMakeFiles/CalVer2.di
 
 CMakeFiles/CalVer2.dir/bigNumberMinus.c.o: CMakeFiles/CalVer2.dir/flags.make
 CMakeFiles/CalVer2.dir/bigNumberMinus.c.o: ../bigNumberMinus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CalVer2.dir/bigNumberMinus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CalVer2.dir/bigNumberMinus.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalVer2.dir/bigNumberMinus.c.o   -c /Users/splo2t/CLionProjects/CalVer2/bigNumberMinus.c
 
 CMakeFiles/CalVer2.dir/bigNumberMinus.c.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/CalVer2.dir/bigNumberMinus.c.o.provides.build: CMakeFiles/CalVer2.dir
 
 CMakeFiles/CalVer2.dir/printBigNumber.c.o: CMakeFiles/CalVer2.dir/flags.make
 CMakeFiles/CalVer2.dir/printBigNumber.c.o: ../printBigNumber.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CalVer2.dir/printBigNumber.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CalVer2.dir/printBigNumber.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalVer2.dir/printBigNumber.c.o   -c /Users/splo2t/CLionProjects/CalVer2/printBigNumber.c
 
 CMakeFiles/CalVer2.dir/printBigNumber.c.i: cmake_force
@@ -249,16 +225,40 @@ CMakeFiles/CalVer2.dir/printBigNumber.c.o.provides: CMakeFiles/CalVer2.dir/print
 CMakeFiles/CalVer2.dir/printBigNumber.c.o.provides.build: CMakeFiles/CalVer2.dir/printBigNumber.c.o
 
 
+CMakeFiles/CalVer2.dir/multiple.c.o: CMakeFiles/CalVer2.dir/flags.make
+CMakeFiles/CalVer2.dir/multiple.c.o: ../multiple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CalVer2.dir/multiple.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalVer2.dir/multiple.c.o   -c /Users/splo2t/CLionProjects/CalVer2/multiple.c
+
+CMakeFiles/CalVer2.dir/multiple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CalVer2.dir/multiple.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/splo2t/CLionProjects/CalVer2/multiple.c > CMakeFiles/CalVer2.dir/multiple.c.i
+
+CMakeFiles/CalVer2.dir/multiple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CalVer2.dir/multiple.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/splo2t/CLionProjects/CalVer2/multiple.c -o CMakeFiles/CalVer2.dir/multiple.c.s
+
+CMakeFiles/CalVer2.dir/multiple.c.o.requires:
+
+.PHONY : CMakeFiles/CalVer2.dir/multiple.c.o.requires
+
+CMakeFiles/CalVer2.dir/multiple.c.o.provides: CMakeFiles/CalVer2.dir/multiple.c.o.requires
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/multiple.c.o.provides.build
+.PHONY : CMakeFiles/CalVer2.dir/multiple.c.o.provides
+
+CMakeFiles/CalVer2.dir/multiple.c.o.provides.build: CMakeFiles/CalVer2.dir/multiple.c.o
+
+
 # Object files for target CalVer2
 CalVer2_OBJECTS = \
 "CMakeFiles/CalVer2.dir/main.c.o" \
 "CMakeFiles/CalVer2.dir/bigNumberSum.c.o" \
 "CMakeFiles/CalVer2.dir/makeBigNumber.c.o" \
 "CMakeFiles/CalVer2.dir/calNumber.c.o" \
-"CMakeFiles/CalVer2.dir/mul.c.o" \
 "CMakeFiles/CalVer2.dir/bigNumberDivide.c.o" \
 "CMakeFiles/CalVer2.dir/bigNumberMinus.c.o" \
-"CMakeFiles/CalVer2.dir/printBigNumber.c.o"
+"CMakeFiles/CalVer2.dir/printBigNumber.c.o" \
+"CMakeFiles/CalVer2.dir/multiple.c.o"
 
 # External object files for target CalVer2
 CalVer2_EXTERNAL_OBJECTS =
@@ -267,10 +267,10 @@ CalVer2: CMakeFiles/CalVer2.dir/main.c.o
 CalVer2: CMakeFiles/CalVer2.dir/bigNumberSum.c.o
 CalVer2: CMakeFiles/CalVer2.dir/makeBigNumber.c.o
 CalVer2: CMakeFiles/CalVer2.dir/calNumber.c.o
-CalVer2: CMakeFiles/CalVer2.dir/mul.c.o
 CalVer2: CMakeFiles/CalVer2.dir/bigNumberDivide.c.o
 CalVer2: CMakeFiles/CalVer2.dir/bigNumberMinus.c.o
 CalVer2: CMakeFiles/CalVer2.dir/printBigNumber.c.o
+CalVer2: CMakeFiles/CalVer2.dir/multiple.c.o
 CalVer2: CMakeFiles/CalVer2.dir/build.make
 CalVer2: CMakeFiles/CalVer2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable CalVer2"
@@ -285,10 +285,10 @@ CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/main.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/bigNumberSum.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/makeBigNumber.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/calNumber.c.o.requires
-CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/mul.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/bigNumberDivide.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/bigNumberMinus.c.o.requires
 CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/printBigNumber.c.o.requires
+CMakeFiles/CalVer2.dir/requires: CMakeFiles/CalVer2.dir/multiple.c.o.requires
 
 .PHONY : CMakeFiles/CalVer2.dir/requires
 
