@@ -5,22 +5,20 @@
 #include "bigNumber.h"
 
 int myPow(int x, int y);
-struct number makeBigNumber(char *originalNumber){
-    printf("\n  %s  ", originalNumber);
+struct number makeBigNumber(char *originalNumber, char op) {
+
     struct number number;
     char buffer[5];
     buffer[4] = '\0';
 
-    char numberBuffer[MAX_SIZE+1];
-    numberBuffer[MAX_SIZE] = '\0';
+    char numberBuffer[MAX_SIZE+1] = {0};
+
 
     int index = 0;
-    int breakMark = 0;
     int i;
 
     int length = strlen(originalNumber);
 
-    printf("l %d l", length);
     for(i = 0; i < MAX_SIZE - length + 1; i++){
         numberBuffer[i] = '0';
     }
@@ -29,7 +27,6 @@ struct number makeBigNumber(char *originalNumber){
 
     for(int j = 0; j < length; j++){
         numberBuffer[i++] = originalNumber[j];
-        printf("%c", originalNumber[j]);
     }
 
 
@@ -39,10 +36,12 @@ struct number makeBigNumber(char *originalNumber){
             buffer[i] = numberBuffer[index++];
 
         }
+        printf("\n%s", buffer);
 
         number.number[j] = myAtoi(buffer);
-        printf("\n\n%s", buffer);
+        printf("%4d", number.number[j]);
     }
+    number.op = op;
     return number;
 
 }

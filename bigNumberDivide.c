@@ -8,7 +8,7 @@
 int bigNumberDivide(char *orgNum1, char *orgNum2){
     int count = 0;
     struct number temp;
-    temp = makeBigNumber(orgNum1);
+    temp = makeBigNumber(orgNum1, 0);
     char buffer[MAX_SIZE] = {'0'};
 
     while(1){

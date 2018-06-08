@@ -50,7 +50,6 @@ char * bigNumberSum(char *orgNum1, char *orgNum2) {
         buffer[bufferIndex] = (buffer[bufferIndex] + num1[numIndex]-'0'+ num2[numIndex]-'0') % 10 +'0';
         bufferIndex--;
         numIndex--;
-        printf("%4c", buffer[bufferIndex+1]);
 
     }
     if(buffer[0] == 1)buffer[0] = '1';
