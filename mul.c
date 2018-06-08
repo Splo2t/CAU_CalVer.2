@@ -1,5 +1,6 @@
 #include "bigNumber.h"
-void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
+
+struct number bigNumberMultiple(char *orgnum1, char *orgnum2) {
 	unsigned char MUL[200];
 	int i, j, k;
 	int lengthNum1 = strlen(orgnum1);
@@ -8,11 +9,11 @@ void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
 
 	for (i = 0; i < lengthNum1; i++) {
 		for (j = 0; j < lengthNum2; j++) {
-			k = length_MUL - i - j; //µÚ¿¡¼­ºÎÅÍ °è»ê
+			k = length_MUL - i - j; //ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			MUL[k] += (orgnum1[lengthNum1 - i - 1] - '0')*(orgnum2[lengthNum2 - j - 1] - '0');
 			if (MUL[k] > 9) {
 				MUL[k - 1] += (MUL[k] / 10); 
-				MUL[k] %= 10;  //¹Ý¿Ã¸²
+				MUL[k] %= 10;  //ï¿½Ý¿Ã¸ï¿½
 			}
 
 		}
@@ -21,7 +22,7 @@ void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
 		MUL[i] += '0';
 	}
 	for (i = 0; MUL[i] == '0';) {
-		i++; //¾Õ¿¡ 0ÀÏ °æ¿ì Ãâ·ÂÇÏÁö ¾ÊÀ½
+		i++; //ï¿½Õ¿ï¿½ 0ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	}
 	printf("%s\n", &MUL[i]);
 

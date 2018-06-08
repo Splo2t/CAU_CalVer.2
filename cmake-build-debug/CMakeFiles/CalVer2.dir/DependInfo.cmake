@@ -4,8 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/splo2t/CLionProjects/CalVer2/bigNumberDivide.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberDivide.c.o"
+  "/Users/splo2t/CLionProjects/CalVer2/bigNumberMinus.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberMinus.c.o"
   "/Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberSum.c.o"
+  "/Users/splo2t/CLionProjects/CalVer2/calNumber.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/calNumber.c.o"
   "/Users/splo2t/CLionProjects/CalVer2/main.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/main.c.o"
+  "/Users/splo2t/CLionProjects/CalVer2/makeBigNumber.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/makeBigNumber.c.o"
+  "/Users/splo2t/CLionProjects/CalVer2/mul.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/mul.c.o"
+  "/Users/splo2t/CLionProjects/CalVer2/printBigNumber.c" "/Users/splo2t/CLionProjects/CalVer2/cmake-build-debug/CMakeFiles/CalVer2.dir/printBigNumber.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
