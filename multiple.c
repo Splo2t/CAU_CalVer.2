@@ -1,6 +1,6 @@
 #include "bigNumber.h"
 
-void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
+char* bigNumbeMultiple(char *orgnum1, char *orgnum2) {
 	unsigned char MUL[MAX_SIZE+MAX_SIZE+2];
 	int i, j, k;
 
@@ -27,10 +27,8 @@ void bigNumbeMultiple(char *orgnum1, char *orgnum2) {
 		i++; //앞에 0일 경우 출력하지 않음
 	}
 
-	struct number returnNumber;
 	
-	returnNumber = makeBigNumber(MUL);
 	
-	return returnNumber;
+	return MUL;
 
 }
