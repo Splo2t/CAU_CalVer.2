@@ -31,3 +31,5 @@ struct number bigNumberSum(char *num1, char *num2);
 void printBigNumber(struct number number);
 
 struct number makeBigNumber(char *originalNumber);
+
+char* bigNumberMinusChar(char *orgNum1, char *orgNum2);

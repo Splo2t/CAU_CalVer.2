@@ -20,7 +20,7 @@ struct number bigNumberDivide(char *orgNum1, char *orgNum2){
     for(int i = lengthNum2; i < lengthNum1; i++){
         buffer[i] = orgNum1[bufferIndex];
         while(1) {
-            tempBigNumber = bigNumberMinus(buffer, orgNum2);
+            bigNumberMinusChar(buffer, orgNum2);
 
         }
     }

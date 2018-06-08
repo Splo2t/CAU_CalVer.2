@@ -1,7 +1,7 @@
 
 #include "bigNumber.h"
 
-void calNumber(char *num1, char *num2, char op);
+void calNumber(char *num1, char *num2, char opNumber1, char opNumber2, char op);
 
 int max(int a, int b){
     if (a > b) return a;
@@ -13,13 +13,43 @@ int main() {
     char inputNumber1[32];
     char inputNumber2[32];
 
+    char number1[33] = {0};
+    char number2[33] = {0};
+
+    char opNumber1;
+    char opNumber2;
+
     char op;
 
-
+    int index;
     printf("연산식을 입력하세요");
     scanf("%s %c %s", inputNumber1, &op, inputNumber2);
 
-    calNumber(inputNumber1, inputNumber2, op);
+    if(inputNumber1[0] != '-'){
+        if(inputNumber1[0] != '+'){
+            opNumber1 = '+';
+            strcat(number1,inputNumber1);
+        }
+    } else {
+        opNumber1 = '-';
+        for(int i = 1; i < strlen(inputNumber1); i++){
+            number1[index++] = inputNumber1[i];
+        }
+    }
+
+    if(inputNumber2[0] != '-'){
+        if(inputNumber2[0] != '+'){
+            opNumber2 = '+';
+            strcat(number1,inputNumber1);
+        }
+    } else {
+        opNumber2 = '-';
+        for(int i = 1; i < strlen(inputNumber2); i++){
+            number2[index++] = inputNumber2[i];
+        }
+    }
+
+    calNumber(inputNumber1, inputNumber2, opNumber1, opNumber2, op);
 
 
     return 0;

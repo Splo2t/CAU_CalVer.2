@@ -38,7 +38,6 @@ struct number makeBigNumber(char *originalNumber){
         }
 
         number.number[j] = myAtoi(buffer);
-        printf("*%d*",number.number[j]);
     }
     number.chiper = index;
     return number;
