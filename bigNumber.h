@@ -32,7 +32,7 @@ char * bigNumberSum(char *num1, char *num2);
 
 void printBigNumber(struct number number);
 
-struct number makeBigNumber(char *originalNumber);
+struct number makeBigNumber(char *originalNumber, char op);
 
 char* returnBigNumber(struct number number);
 
