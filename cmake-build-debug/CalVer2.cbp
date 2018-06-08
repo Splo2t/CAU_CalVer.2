@@ -83,13 +83,28 @@
 		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumber.h">
 			<Option target="CalVer2"/>
 		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumberDivide.c">
+			<Option target="CalVer2"/>
+		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumberMinus.c">
+			<Option target="CalVer2"/>
+		</Unit>
 		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c">
+			<Option target="CalVer2"/>
+		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/calNumber.c">
 			<Option target="CalVer2"/>
 		</Unit>
 		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/main.c">
 			<Option target="CalVer2"/>
 		</Unit>
-		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/makeBigNumber.cpp">
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/makeBigNumber.c">
+			<Option target="CalVer2"/>
+		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/mul.c">
+			<Option target="CalVer2"/>
+		</Unit>
+		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/printBigNumber.c">
 			<Option target="CalVer2"/>
 		</Unit>
 		<Unit filename="/Users/splo2t/CLionProjects/CalVer2/CMakeLists.txt">

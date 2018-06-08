@@ -10,15 +10,17 @@ int max(int a, int b){
 
 int main() {
 
-    char inputNumber1[10];
-    char inputNumber2[10];
+    char inputNumber1[32];
+    char inputNumber2[32];
 
     char op;
 
 
+    printf("연산식을 입력하세요");
     scanf("%s %c %s", inputNumber1, &op, inputNumber2);
 
     calNumber(inputNumber1, inputNumber2, op);
+
 
     return 0;
 }

@@ -1,12 +1,11 @@
 #include "bigNumber.h"
 
 //
-// Created by 유현욱 on 2018. 6. 7..
+// Created by 유현욱 on 2018. 6. 8..
 //
 
 int max(int a, int b);
-struct number bigNumberSum(char *orgNum1, char *orgNum2) {
-    // TODO: num1과 num2의 자리수를 맞쳐야함 ex) num1 = 10042 num2 = 00023 아니면 오버플로 일부러 냅둬서 0맞출수도 있음 근데 아마 안될듯
+struct number bigNumberMinus(char *orgNum1, char *orgNum2) {
     struct number returnBigNumber;
 
     char buffer[100] = { '0' };
@@ -40,26 +39,25 @@ struct number bigNumberSum(char *orgNum1, char *orgNum2) {
     }
     int numIndex = max(lengthNum1, lengthNum2)-1;
 
-    int bufferIndex = max(lengthNum1, lengthNum2)+1;
+    int bufferIndex = max(lengthNum1, lengthNum2);
 
     buffer[bufferIndex--] = '\0';
 
 
+
     for (int i = 0; i < max(lengthNum1, lengthNum2); i++){
-        if (num1[numIndex]-'0' + num2[numIndex]-'0' + buffer[bufferIndex]>= 10)
-            buffer[bufferIndex-1] = 1;
-        buffer[bufferIndex] = (buffer[bufferIndex] + num1[numIndex]-'0'+ num2[numIndex]-'0') % 10 +'0';
+        if (num1[numIndex] - num2[numIndex] < 0)
+        {
+            num1[bufferIndex - 1]--;
+            num1[bufferIndex] += 10;
+        }
+        buffer[bufferIndex] = (num1[numIndex] - num2[numIndex]) + '0';
         bufferIndex--;
         numIndex--;
-       // printf("%4c", buffer[bufferIndex+1]);
-
     }
-    if(buffer[0] == 1)buffer[0] = '1';
 
-    printf("\n%s\n", buffer);
+    return returnBigNumber = makeBigNumber(buffer);
 
-
-    returnBigNumber = makeBigNumber(buffer);
 
 
 

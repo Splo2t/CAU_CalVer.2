@@ -14,11 +14,37 @@ string.h
 stdlib.h
 -
 
+/Users/splo2t/CLionProjects/CalVer2/bigNumberDivide.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/bigNumberMinus.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
 /Users/splo2t/CLionProjects/CalVer2/bigNumberSum.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/calNumber.c
 bigNumber.h
 /Users/splo2t/CLionProjects/CalVer2/bigNumber.h
 
 /Users/splo2t/CLionProjects/CalVer2/main.c
 bigNumber.h
 /Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/makeBigNumber.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/mul.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+
+/Users/splo2t/CLionProjects/CalVer2/printBigNumber.c
+bigNumber.h
+/Users/splo2t/CLionProjects/CalVer2/bigNumber.h
+math.h
+-
 

@@ -123,6 +123,60 @@ CalVer2/fast:
 	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/build
 .PHONY : CalVer2/fast
 
+bigNumberDivide.o: bigNumberDivide.c.o
+
+.PHONY : bigNumberDivide.o
+
+# target to build an object file
+bigNumberDivide.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberDivide.c.o
+.PHONY : bigNumberDivide.c.o
+
+bigNumberDivide.i: bigNumberDivide.c.i
+
+.PHONY : bigNumberDivide.i
+
+# target to preprocess a source file
+bigNumberDivide.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberDivide.c.i
+.PHONY : bigNumberDivide.c.i
+
+bigNumberDivide.s: bigNumberDivide.c.s
+
+.PHONY : bigNumberDivide.s
+
+# target to generate assembly for a file
+bigNumberDivide.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberDivide.c.s
+.PHONY : bigNumberDivide.c.s
+
+bigNumberMinus.o: bigNumberMinus.c.o
+
+.PHONY : bigNumberMinus.o
+
+# target to build an object file
+bigNumberMinus.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberMinus.c.o
+.PHONY : bigNumberMinus.c.o
+
+bigNumberMinus.i: bigNumberMinus.c.i
+
+.PHONY : bigNumberMinus.i
+
+# target to preprocess a source file
+bigNumberMinus.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberMinus.c.i
+.PHONY : bigNumberMinus.c.i
+
+bigNumberMinus.s: bigNumberMinus.c.s
+
+.PHONY : bigNumberMinus.s
+
+# target to generate assembly for a file
+bigNumberMinus.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberMinus.c.s
+.PHONY : bigNumberMinus.c.s
+
 bigNumberSum.o: bigNumberSum.c.o
 
 .PHONY : bigNumberSum.o
@@ -149,6 +203,33 @@ bigNumberSum.s: bigNumberSum.c.s
 bigNumberSum.c.s:
 	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/bigNumberSum.c.s
 .PHONY : bigNumberSum.c.s
+
+calNumber.o: calNumber.c.o
+
+.PHONY : calNumber.o
+
+# target to build an object file
+calNumber.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/calNumber.c.o
+.PHONY : calNumber.c.o
+
+calNumber.i: calNumber.c.i
+
+.PHONY : calNumber.i
+
+# target to preprocess a source file
+calNumber.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/calNumber.c.i
+.PHONY : calNumber.c.i
+
+calNumber.s: calNumber.c.s
+
+.PHONY : calNumber.s
+
+# target to generate assembly for a file
+calNumber.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/calNumber.c.s
+.PHONY : calNumber.c.s
 
 main.o: main.c.o
 
@@ -177,6 +258,87 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/main.c.s
 .PHONY : main.c.s
 
+makeBigNumber.o: makeBigNumber.c.o
+
+.PHONY : makeBigNumber.o
+
+# target to build an object file
+makeBigNumber.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/makeBigNumber.c.o
+.PHONY : makeBigNumber.c.o
+
+makeBigNumber.i: makeBigNumber.c.i
+
+.PHONY : makeBigNumber.i
+
+# target to preprocess a source file
+makeBigNumber.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/makeBigNumber.c.i
+.PHONY : makeBigNumber.c.i
+
+makeBigNumber.s: makeBigNumber.c.s
+
+.PHONY : makeBigNumber.s
+
+# target to generate assembly for a file
+makeBigNumber.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/makeBigNumber.c.s
+.PHONY : makeBigNumber.c.s
+
+mul.o: mul.c.o
+
+.PHONY : mul.o
+
+# target to build an object file
+mul.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/mul.c.o
+.PHONY : mul.c.o
+
+mul.i: mul.c.i
+
+.PHONY : mul.i
+
+# target to preprocess a source file
+mul.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/mul.c.i
+.PHONY : mul.c.i
+
+mul.s: mul.c.s
+
+.PHONY : mul.s
+
+# target to generate assembly for a file
+mul.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/mul.c.s
+.PHONY : mul.c.s
+
+printBigNumber.o: printBigNumber.c.o
+
+.PHONY : printBigNumber.o
+
+# target to build an object file
+printBigNumber.c.o:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/printBigNumber.c.o
+.PHONY : printBigNumber.c.o
+
+printBigNumber.i: printBigNumber.c.i
+
+.PHONY : printBigNumber.i
+
+# target to preprocess a source file
+printBigNumber.c.i:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/printBigNumber.c.i
+.PHONY : printBigNumber.c.i
+
+printBigNumber.s: printBigNumber.c.s
+
+.PHONY : printBigNumber.s
+
+# target to generate assembly for a file
+printBigNumber.c.s:
+	$(MAKE) -f CMakeFiles/CalVer2.dir/build.make CMakeFiles/CalVer2.dir/printBigNumber.c.s
+.PHONY : printBigNumber.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CalVer2"
+	@echo "... bigNumberDivide.o"
+	@echo "... bigNumberDivide.i"
+	@echo "... bigNumberDivide.s"
+	@echo "... bigNumberMinus.o"
+	@echo "... bigNumberMinus.i"
+	@echo "... bigNumberMinus.s"
 	@echo "... bigNumberSum.o"
 	@echo "... bigNumberSum.i"
 	@echo "... bigNumberSum.s"
+	@echo "... calNumber.o"
+	@echo "... calNumber.i"
+	@echo "... calNumber.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... makeBigNumber.o"
+	@echo "... makeBigNumber.i"
+	@echo "... makeBigNumber.s"
+	@echo "... mul.o"
+	@echo "... mul.i"
+	@echo "... mul.s"
+	@echo "... printBigNumber.o"
+	@echo "... printBigNumber.i"
+	@echo "... printBigNumber.s"
 .PHONY : help
 
 

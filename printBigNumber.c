@@ -1,22 +1,26 @@
 #include "bigNumber.h"
-
+#include <math.h>
+int myPow(int x, int y);
 void printBigNumber(struct number number)
 {
-    int i, k=0;
+    int zeroCount = 0;
     printf("\n결과값: ");
-    for(i=0;i<=4;i++)
+    for(int i=0;i<MAX_ARR_SIZE;i++)
     {
-        if(number.number[i] != 0 && number.number[i] > 0)
-            printf("%d", number.number[i]);
-        if(number.number[i] != 0 && number.number[i] < 0)
-        {
-            if(k==0)
-            {
-                printf("%d", number.number[i]);
-                k++;
-            }
-            else printf("%d", number.number[i] * (-1));
+        for(int j = 0; j < 4; j++){
+            if(number.number[i]/myPow(10,3-j)%10) zeroCount = 1;
+            if(zeroCount == 0) continue;
+            printf("%d", number.number[i]/myPow(10,3-j)%10);
+
         }
     }
 }
 
+
+int myPow(int x, int y){
+    int k = 1;
+    for(int i = 0; i < y; i++){
+        k *= x;
+    }
+    return k;
+}
