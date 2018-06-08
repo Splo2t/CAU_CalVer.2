@@ -16,6 +16,7 @@ char * bigNumberSum(char *orgNum1, char *orgNum2) {
     int lengthNum1 = strlen(orgNum1);
     int lengthNum2 = strlen(orgNum2);
 
+    printf("\n");
     if (lengthNum1 >= lengthNum2){
         for (int i = 0; i < lengthNum1 - lengthNum2; i++){
             num2[i] = '0';

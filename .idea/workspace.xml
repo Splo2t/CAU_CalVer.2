@@ -12,17 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd8d4e3-709a-467c-b4b6-abc0b5c2bf47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigNumber.h" beforeDir="false" afterPath="$PROJECT_DIR$/bigNumber.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigNumberDivide.c" beforeDir="false" afterPath="$PROJECT_DIR$/bigNumberDivide.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bigNumberMinus.c" beforeDir="false" afterPath="$PROJECT_DIR$/bigNumberMinus.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bigNumberSum.c" beforeDir="false" afterPath="$PROJECT_DIR$/bigNumberSum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calNumber.c" beforeDir="false" afterPath="$PROJECT_DIR$/calNumber.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberDivide.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberDivide.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberMinus.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/bigNumberMinus.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/calNumber.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/calNumber.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/makeBigNumber.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CalVer2.dir/makeBigNumber.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CalVer2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CalVer2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeBigNumber.c" beforeDir="false" afterPath="$PROJECT_DIR$/makeBigNumber.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -48,7 +39,7 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
+            <state relative-caret-position="-38">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -57,17 +48,17 @@
       <file leaf-file-name="calNumber.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calNumber.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="241">
               <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="makeBigNumber.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="makeBigNumber.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makeBigNumber.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="245">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -75,11 +66,8 @@
       <file leaf-file-name="printBigNumber.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/printBigNumber.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -99,17 +87,17 @@
       <file leaf-file-name="bigNumberMinus.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bigNumberMinus.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
+            <state relative-caret-position="-74">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigNumberSum.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bigNumberSum.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bigNumberSum.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="403">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -117,7 +105,7 @@
       <file leaf-file-name="bigNumberDivide.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bigNumberDivide.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="16">
               <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
@@ -154,10 +142,10 @@
         <option value="$PROJECT_DIR$/bigNumber.h" />
         <option value="$PROJECT_DIR$/multiple.c" />
         <option value="$PROJECT_DIR$/bigNumberDivide.c" />
-        <option value="$PROJECT_DIR$/bigNumberMinus.c" />
         <option value="$PROJECT_DIR$/calNumber.c" />
-        <option value="$PROJECT_DIR$/bigNumberSum.c" />
+        <option value="$PROJECT_DIR$/bigNumberMinus.c" />
         <option value="$PROJECT_DIR$/makeBigNumber.c" />
+        <option value="$PROJECT_DIR$/bigNumberSum.c" />
       </list>
     </option>
   </component>
@@ -246,12 +234,12 @@
       <workItem from="1528359576796" duration="81000" />
       <workItem from="1528367246974" duration="6861000" />
       <workItem from="1528388305843" duration="132000" />
-      <workItem from="1528388628287" duration="22301000" />
+      <workItem from="1528388628287" duration="24781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35454000" />
+    <option name="totallyTimeSpent" value="37934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1393" height="877" extended-state="6" />
@@ -446,6 +434,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bigNumberDivide.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigNumberMinus.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multiple.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -453,55 +455,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigNumberDivide.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
+        <state relative-caret-position="-38">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigNumberMinus.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigNumberSum.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calNumber.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="241">
           <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/printBigNumber.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/makeBigNumber.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="245">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigNumberSum.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
       </provider>
     </entry>
