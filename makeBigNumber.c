@@ -36,10 +36,10 @@ struct number makeBigNumber(char *originalNumber, char op) {
             buffer[i] = numberBuffer[index++];
 
         }
-        printf("\n%s", buffer);
+
 
         number.number[j] = myAtoi(buffer);
-        printf("%4d", number.number[j]);
+
     }
     number.op = op;
     return number;

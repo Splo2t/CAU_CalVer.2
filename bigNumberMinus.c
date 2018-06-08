@@ -63,8 +63,6 @@ struct number bigNumberMinus(char *orgNum1, char *orgNum2) {
         }
 
 
-        printf("\n %c %s %s", returnBigNumber.op, num1, num2);
-
     }
     int numIndex = max(lengthNum1, lengthNum2)-1;
 
@@ -87,7 +85,6 @@ struct number bigNumberMinus(char *orgNum1, char *orgNum2) {
 
 
     returnBigNumber = makeBigNumber(buffer, returnBigNumber.op);
-    printBigNumber(returnBigNumber);
 
     return returnBigNumber;
 
