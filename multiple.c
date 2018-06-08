@@ -1,34 +1,34 @@
 #include "bigNumber.h"
 
-char* bigNumbeMultiple(char *orgnum1, char *orgnum2) {
-	unsigned char MUL[MAX_SIZE+MAX_SIZE+2];
-	int i, j, k;
+char* bigNumberMultiple(char *orgnum1, char *orgnum2) {
+    unsigned char MUL[MAX_SIZE+MAX_SIZE+2];
+    int i, j, k;
 
-	int lengthNum1 = strlen(orgnum1);
-	int lengthNum2 = strlen(orgnum2);
-	int length_MUL = lengthNum1 + lengthNum2;
-	memset(MUL, 0x00, length_MUL + 2);
-	
-	for (i = 0; i < lengthNum1; i++) {
-		for (j = 0; j < lengthNum2; j++) {
-			k = length_MUL - i - j; //µÚ¿¡¼­ºÎÅÍ °è»ê
-			MUL[k] += (orgnum1[lengthNum1 - i - 1] - '0')*(orgnum2[lengthNum2 - j - 1] - '0');
-			if (MUL[k] > 9) {
-				MUL[k - 1] += (MUL[k] / 10);
-				MUL[k] %= 10;  //¹Ý¿Ã¸²
-			}
+    int lengthNum1 = strlen(orgnum1);
+    int lengthNum2 = strlen(orgnum2);
+    int length_MUL = lengthNum1 + lengthNum2;
+    memset(MUL, 0x00, length_MUL + 2);
 
-		}
-	}
-	for (i = 0; i < length_MUL; i++) {
-		MUL[i] += '0';
-	}
-	for (i = 0; MUL[i] == '0';) {
-		i++; //¾Õ¿¡ 0ÀÏ °æ¿ì Ãâ·ÂÇÏÁö ¾ÊÀ½
-	}
+    for (i = 0; i < lengthNum1; i++) {
+        for (j = 0; j < lengthNum2; j++) {
+            k = length_MUL - i - j; //ë’¤ì—ì„œë¶€í„° ê³„ì‚°
+            MUL[k] += (orgnum1[lengthNum1 - i - 1] - '0')*(orgnum2[lengthNum2 - j - 1] - '0');
+            if (MUL[k] > 9) {
+                MUL[k - 1] += (MUL[k] / 10);
+                MUL[k] %= 10;  //ë°˜ì˜¬ë¦¼
+            }
 
-	
-	
-	return MUL;
+        }
+    }
+    for (i = 0; i < length_MUL; i++) {
+        MUL[i] += '0';
+    }
+    for (i = 0; MUL[i] == '0';) {
+        i++; //ì•žì— 0ì¼ ê²½ìš° ì¶œë ¥í•˜ì§€ ì•ŠìŒ
+    }
+
+
+
+    return MUL;
 
 }

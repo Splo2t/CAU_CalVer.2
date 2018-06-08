@@ -19,8 +19,8 @@ CMakeFiles/CalVer2.dir/main.c.o: ../main.c
 CMakeFiles/CalVer2.dir/makeBigNumber.c.o: ../bigNumber.h
 CMakeFiles/CalVer2.dir/makeBigNumber.c.o: ../makeBigNumber.c
 
-CMakeFiles/CalVer2.dir/mul.c.o: ../bigNumber.h
-CMakeFiles/CalVer2.dir/mul.c.o: ../mul.c
+CMakeFiles/CalVer2.dir/multiple.c.o: ../bigNumber.h
+CMakeFiles/CalVer2.dir/multiple.c.o: ../multiple.c
 
 CMakeFiles/CalVer2.dir/printBigNumber.c.o: ../bigNumber.h
 CMakeFiles/CalVer2.dir/printBigNumber.c.o: ../printBigNumber.c

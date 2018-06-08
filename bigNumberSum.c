@@ -5,9 +5,8 @@
 //
 
 int max(int a, int b);
-struct number bigNumberSum(char *orgNum1, char *orgNum2) {
+char * bigNumberSum(char *orgNum1, char *orgNum2) {
     // TODO: num1과 num2의 자리수를 맞쳐야함 ex) num1 = 10042 num2 = 00023 아니면 오버플로 일부러 냅둬서 0맞출수도 있음 근데 아마 안될듯
-    struct number returnBigNumber;
 
     char buffer[100] = { '0' };
 
@@ -51,15 +50,13 @@ struct number bigNumberSum(char *orgNum1, char *orgNum2) {
         buffer[bufferIndex] = (buffer[bufferIndex] + num1[numIndex]-'0'+ num2[numIndex]-'0') % 10 +'0';
         bufferIndex--;
         numIndex--;
-       // printf("%4c", buffer[bufferIndex+1]);
+        printf("%4c", buffer[bufferIndex+1]);
 
     }
     if(buffer[0] == 1)buffer[0] = '1';
 
-    printf("\n%s\n", buffer);
 
-
-    returnBigNumber = makeBigNumber(buffer);
+    return buffer;
 
 
 

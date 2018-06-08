@@ -16,20 +16,23 @@
 struct number{
 
     int number[MAX_ARR_SIZE];
-    int chiper;
+    char op;
 };
 
-struct number bigNumberMultiple(char *num1, char *num2);
+char * bigNumberMultiple(char *num1, char *num2);
 
-struct number bigNumberDivide(char *num1, char *num2);
+
+
+int bigNumberDivide(char *num1, char *num2);
 
 struct number bigNumberMinus(char *num1, char *num2);
 
-struct number bigNumberSum(char *num1, char *num2);
+char * bigNumberSum(char *num1, char *num2);
 
 
 void printBigNumber(struct number number);
 
 struct number makeBigNumber(char *originalNumber);
 
-char* bigNumberMinusChar(char *orgNum1, char *orgNum2);
+char* returnBigNumber(struct number number);
+

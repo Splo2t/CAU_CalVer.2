@@ -6,6 +6,7 @@
 
 int myPow(int x, int y);
 struct number makeBigNumber(char *originalNumber){
+    printf("\n  %s  ", originalNumber);
     struct number number;
     char buffer[5];
     buffer[4] = '\0';
@@ -19,6 +20,7 @@ struct number makeBigNumber(char *originalNumber){
 
     int length = strlen(originalNumber);
 
+    printf("l %d l", length);
     for(i = 0; i < MAX_SIZE - length + 1; i++){
         numberBuffer[i] = '0';
     }
@@ -27,6 +29,7 @@ struct number makeBigNumber(char *originalNumber){
 
     for(int j = 0; j < length; j++){
         numberBuffer[i++] = originalNumber[j];
+        printf("%c", originalNumber[j]);
     }
 
 
@@ -38,8 +41,8 @@ struct number makeBigNumber(char *originalNumber){
         }
 
         number.number[j] = myAtoi(buffer);
+        printf("\n\n%s", buffer);
     }
-    number.chiper = index;
     return number;
 
 }
@@ -62,5 +65,7 @@ char* returnBigNumber(struct number number){
 
         }
     }
+
+    return buffer;
 
 }
